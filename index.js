@@ -8,10 +8,11 @@ const makeReadme = (answers) =>
 
 ## Table of contents
 1. [Description](#desc)
-2.
-3.
-4.
-5.
+2. [Installation](#inst)
+3. [Usage](#use)
+4. [Contributing](#cont)
+5. [Tests](#test)
+6. [Questions](#quest)
 
 ## License
 ${answers.license}
@@ -21,27 +22,32 @@ ${answers.license}
 ## Description
 ${answers.description}
 
+<a name="inst"></a>
 ## Installation
 
 ${answers.dependencies}
 
+<a name="use"></a>
 ## Usage
 
 ${answers.use}
 
+<a name="cont"></a>
 ## Contributing
 
 ${answers.contribute}
 
+<a name="test"></a>
 ## Tests
 
 ${answers.tests}
 
-## questions
+<a name="quest"></a>
+## Questions
 
 ${answers.email}
 
-[Github]https://github.com/${answers.username}`
+[Github](https://github.com/${answers.username})`
 
 
 
