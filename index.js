@@ -2,6 +2,13 @@ const inquirer = require('inquirer');
 
 const fs = require('fs');
 
+
+const makeReadme = (answers) =>
+`hey ${answers.username}`
+
+
+
+
 inquirer
   .prompt([
     {
@@ -55,5 +62,6 @@ inquirer
     const readmeContent = makeReadme(answers);
 
     fs.writeFile('readme.md', readmeContent, (err) =>
-    err ? console.log(err) : console.log("generating ReadMe.MD"));
+    err ? console.log(err) : console.log("generating ReadMe.MD")
+    );
   });
