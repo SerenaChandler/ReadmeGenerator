@@ -4,7 +4,44 @@ const fs = require('fs');
 
 
 const makeReadme = (answers) =>
-`hey ${answers.username}`
+`# ${answers.project}
+
+## Table of contents
+1. [Description](#desc)
+2.
+3.
+4.
+5.
+
+## License
+${answers.license}
+
+
+<a name="desc"></a>
+## Description
+${answers.description}
+
+## Installation
+
+${answers.dependencies}
+
+## Usage
+
+${answers.use}
+
+## Contributing
+
+${answers.contribute}
+
+## Tests
+
+${answers.tests}
+
+## questions
+
+${answers.email}
+
+[Github]https://github.com/${answers.username}`
 
 
 
@@ -23,7 +60,7 @@ inquirer
     },
     {
       type: 'input',
-      message: 'what is the name of your ptoject?',
+      message: 'what is the name of your project?',
       name: 'project',
     },
     {
@@ -61,7 +98,7 @@ inquirer
   .then((answers) => {
     const readmeContent = makeReadme(answers);
 
-    fs.writeFile('readme.md', readmeContent, (err) =>
+    fs.writeFile('test.md', readmeContent, (err) =>
     err ? console.log(err) : console.log("generating ReadMe.MD")
     );
   });
