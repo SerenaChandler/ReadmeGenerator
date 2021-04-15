@@ -15,7 +15,7 @@ const makeReadme = (answers) =>
 6. [Questions](#quest)
 
 ## License
-${answers.license}
+![license](https://img.shields.io/badge/license-${answers.license}-blue)
 
 
 <a name="desc"></a>
@@ -75,9 +75,10 @@ inquirer
       name: 'description'
     },
     {
-      type: 'input',
+      type: 'list',
       message: "what license should your project have?",
       name: 'license',
+      choices: ['MIT', 'Apache', 'BSD', 'Eclipse', 'GNU', 'Mozilla', 'Zlib', 'IBM']
     },
     {
       type: 'input',
