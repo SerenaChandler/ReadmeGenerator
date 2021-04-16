@@ -1,4 +1,4 @@
-# Test Readme
+# Test ReadMe
 
 ## Table of contents
 1. [Description](#desc)
@@ -9,36 +9,37 @@
 6. [Questions](#quest)
 
 ## License
-![license](https://img.shields.io/badge/license-MIT-blue)
+![license](https://img.shields.io/badge/license-Mozilla-blue)
 
 
 <a name="desc"></a>
 ## Description
-I had to make a program that would make a readme automatically
+This is a Sample ReadMe that was made using a program I wrote to auto generate ReadMes
 
 <a name="inst"></a>
 ## Installation
 
-none
+Just clone the repo I guess
 
 <a name="use"></a>
 ## Usage
 
-Node, Js, VScode
+JS and how to use Node
 
 <a name="cont"></a>
 ## Contributing
 
-Node, Javascript
+JS
 
 <a name="test"></a>
 ## Tests
 
-npm run test
+There are no tests set up for this program, but Jest works well
 
 <a name="quest"></a>
 ## Questions
 
-serena@gmail.com
+[Email](mailto:serenachandler2019@gmail.com)
 
-[Github](https://github.com/serenachandler)
+
+[Github](https://github.com/SerenaChandler)

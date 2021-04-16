@@ -45,7 +45,8 @@ ${answers.tests}
 <a name="quest"></a>
 ## Questions
 
-${answers.email}
+[Email](mailto:${answers.email})
+
 
 [Github](https://github.com/${answers.username})`
 
