@@ -105,7 +105,7 @@ inquirer
   .then((answers) => {
     const readmeContent = makeReadme(answers);
 
-    fs.writeFile('test.md', readmeContent, (err) =>
+    fs.writeFile('SampleReadMe.md', readmeContent, (err) =>
     err ? console.log(err) : console.log("generating ReadMe.MD")
     );
   });
