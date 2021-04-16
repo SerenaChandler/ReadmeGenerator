@@ -44,3 +44,5 @@ ${answers.dependencies}
 
 [GitHub](https://github.com/SerenaChandler)
 
+[Video-walkthrough](https://www.youtube.com/watch?v=QVQTizLWauc)
+
